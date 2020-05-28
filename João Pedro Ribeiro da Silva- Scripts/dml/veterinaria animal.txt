@@ -1,0 +1,25 @@
+use veterinaria;
+
+insert into animais (nome,raca,peso,tamPelagem,dono) VALUES
+('Maya','Lhasa',10,'grande',1),
+('Milly','vira-lata',40,'pequena',3),
+('PitMaya','Pitbull',50,'enorme',2),
+('Ricardo','Rottweiller',47.4,'grande',2),
+('Enzo','Yorkshire',15,'media',1),
+('Bele','Poodle',10,'media',5),
+('Fausto','caranguejeira',30.43,'grande',1),
+('Neymar','Pitbull',2,,'pequena',3);
+
+alter table animais add column tipoAnimal varchar(255);
+
+update animais set tipoAnimal = "Cachorro" where idanimal = 1;
+update animais set tipoAnimal = "Gato" where idanimal = 2;
+update animais set tipoAnimal = "Cobra" where idanimal = 6;
+update animais set tipoAnimal = "Leão" where idanimal = 7;
+update animais set tipoAnimal = "Urso" where idanimal = 3;
+update animais set tipoAnimal = "Girafa" where idanimal = 4;
+update animais set tipoAnimal = "Macaco" where idanimal = 8;
+update animais set tipoAnimal = "Pulga" where idanimal = 5;
+
+
+delete from animais where nome = "Belly";

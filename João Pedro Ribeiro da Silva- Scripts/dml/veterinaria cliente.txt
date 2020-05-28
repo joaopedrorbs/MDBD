@@ -1,0 +1,12 @@
+use veterinaria;
+
+insert into cliente (nome,cpf,rg,telCel,cep,complemento) VALUES
+('João Pedro Ribeiro','234.452.342.54','58.437.123-8','11-93123-5465','06456000','numero 145',
+('Eliana Ribeiro da Silva','564.464.532.42','52.324.456-8','11-93543-4234','06455000','numero 234 bloco 105'),
+('Giovanna Ribeiro da Silva','766.342.465.45','32.453.345-8','11-94324-8767','04234000','numero 624 bloco 24');
+('Fabiano Ribeiro da Silva','657.567.345.23','75.653.342-8','11-93123-3454','04654000','numero 312');
+('Daniele Ribeiro da Silva','655.234.234.77','12.345.345-8','11-96454-4725','07686000','numero 132 bloco 14');
+
+insert into cliente VALUES
+('José Cicero da Silva','432.435.645.76','34.645.465-8','11-95656-3543','06786000','numero 1230');
+

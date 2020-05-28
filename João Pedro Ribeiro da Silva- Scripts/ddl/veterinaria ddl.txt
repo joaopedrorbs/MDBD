@@ -1,0 +1,17 @@
+CREATE DATABASE veterinaria;
+
+use veterinaria;
+
+create table animal(
+idAnimal int primary key auto_increment,
+nome varchar(255),
+peso decimal(7,2),
+raca varchar(255),
+tipoAnimal varchar(255)
+);
+
+use veterinaria;
+
+alter table animais add column tamPelagem varchar(255);
+
+drop database veterinaria;

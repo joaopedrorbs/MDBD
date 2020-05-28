@@ -1,0 +1,23 @@
+create database concessionaria;
+
+use concessionaria;
+
+create table carro(
+codCarro int primary key auto_increment,
+marca varchar(50),
+modelo varchar(50),
+anoFabri int,
+valor int
+);
+
+use concessionaria;
+
+alter table veiculo add column anoModelo int;
+
+
+use concessionaria;
+
+drop table carro;
+
+
+drop database concessionaria;

@@ -1,0 +1,13 @@
+CREATE DATABASE bibliotec;
+
+use bibliotec;
+
+create table livros(
+idlivro int primary key auto_increment,
+titulo varchar(255),
+qtdepag int,
+genero varchar(255),
+autor varchar(255),
+ano int;
+
+drop database biblioteca;
